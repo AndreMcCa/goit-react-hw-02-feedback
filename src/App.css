@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+
+  color: #ede6e6;
+  background-color: #0d0d12;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+button {
+  user-select: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+}

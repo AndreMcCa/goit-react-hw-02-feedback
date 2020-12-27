@@ -1,0 +1,31 @@
+.Feedback {
+  width: 100vw;
+  min-height: 200px;
+  height: calc(100vh / 2);
+
+  padding: 20px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  border-top: 1px solid #180724;
+  border-bottom: 1px solid #180724;
+  box-shadow: -10px -10px 15px rgba(70, 10, 150, 0.3),
+    10px 10px 15px rgba(70, 10, 150, 0.3);
+}
+
+.SectionFeedback {
+  margin-bottom: 5px;
+}
+
+.FeedbackTitle {
+  margin-bottom: 10px;
+}
+
+.StatisticsTitle {
+  margin-bottom: 10px;
+}

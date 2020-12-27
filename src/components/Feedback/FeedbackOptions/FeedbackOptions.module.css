@@ -1,0 +1,43 @@
+.button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  background-color: transparent;
+
+  fill: rgba(100, 100, 150, 0.8);
+
+  transition: transform 250ms, fill 250ms;
+}
+
+.button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.button:hover.good {
+  fill: #00ce13;
+}
+
+.button:hover.neutral {
+  fill: #ffba0a;
+}
+
+.button:hover.bad {
+  fill: #ff220a;
+}
+
+.good {
+  composes: button;
+}
+
+.neutral {
+  composes: button;
+}
+
+.bad {
+  composes: button;
+}
